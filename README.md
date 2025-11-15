@@ -1,16 +1,75 @@
-# React + Vite
+# Weather App / Application Météo
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🇬🇧 English Version
 
-Currently, two official plugins are available:
+The Weather App is built using **JavaScript** and **React** to create a clean and modern user interface. It fetches real-time weather data through an external weather API.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## React Compiler
+* Displays current weather information based on the city entered by the user.
+* Uses API calls to retrieve data such as temperature, humidity, wind speed, etc.
+* UI built with React for a smooth and responsive experience.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Technologies Used
 
-## Expanding the ESLint configuration
+* **ReactJS**: UI development
+* **JavaScript**: Logic and API handling
+* **Weather API**: Real-time weather data
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📦 Installation
+
+```bash
+git clone https://github.com/tsonw/Weather-App.git
+cd weather-app
+npm install
+npm start
+o + [enter]
+```
+
+## 🌐 API Call Example
+
+```javascript
+fetch(`https://api.openweathermap.org/data/2.5/weather?q=${nameCity}&appid=${apiKey}`)
+  .then(response => response.json())
+  .then(data => setWeather(data));
+```
+
+---
+
+## 🇫🇷 Version Française
+
+L'application Weather App est développée avec **JavaScript** et **React**, offrant une interface moderne et fluide. Elle récupère les données météo en temps réel via une API météo externe.
+
+## 🚀 Fonctionnalités
+
+* Affiche les informations météo actuelles selon la ville saisie par l'utilisateur.
+* Utilise des appels API pour obtenir la température, l'humidité, la vitesse du vent, etc.
+* Interface construite avec React pour une expérience utilisateur optimisée.
+
+## 🛠️ Technologies Utilisées
+
+* **ReactJS** : Développement de l'interface utilisateur
+* **JavaScript** : Logique et gestion des appels API
+* **Weather API** : Données météo en temps réel
+
+## 📦 Installation
+
+```bash
+git clone https://github.com/tsonw/Weather-App.git
+cd weather-app
+npm install
+npm start
+o + [enter]
+```
+
+## 🌐 Exemple d'Appel API
+
+```javascript
+fetch(`https://api.openweathermap.org/data/2.5/weather?q=${nameCity}&appid=${apiKey}`)
+  .then(response => response.json())
+  .then(data => setWeather(data));
+```
+
+## 👤 Auteur
+
+Développé par HOANG Thai Son (tsonw)
