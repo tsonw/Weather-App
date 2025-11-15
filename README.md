@@ -10,6 +10,9 @@ The Weather App is built using **JavaScript** and **React** to create a clean an
 * Uses API calls to retrieve data such as temperature, humidity, wind speed, etc.
 * UI built with React for a smooth and responsive experience.
 
+## 🌐 Try it online
+[Click here to go to the web](https://tsonw.github.io/Weather-App/)
+
 ## 🛠️ Technologies Used
 
 * **ReactJS**: UI development
@@ -45,6 +48,9 @@ L'application Weather App est développée avec **JavaScript** et **React**, off
 * Affiche les informations météo actuelles selon la ville saisie par l'utilisateur.
 * Utilise des appels API pour obtenir la température, l'humidité, la vitesse du vent, etc.
 * Interface construite avec React pour une expérience utilisateur optimisée.
+
+## 🌐 Essayez en ligne
+[Cliquez ici pour accéder au site](https://tsonw.github.io/Weather-App/)
 
 ## 🛠️ Technologies Utilisées
 
